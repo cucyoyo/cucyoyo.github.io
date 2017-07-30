@@ -1,0 +1,118 @@
+div a {
+	margin: 0;
+	padding: 0;
+}
+#address-content {
+	padding: 50px;
+}
+.title {
+	width: 200PX;
+	margin: 0 auto 30px;
+	text-align: center;
+}
+.address-card .card {
+	width: 300px;
+	height: 150px;
+	float: left;
+	/*border: solid 2px #DF3838;*/
+	border: solid 2px #ddd;
+	padding: 20px;
+	line-height: 30px;
+	position: relative;
+	margin: 30px;
+}
+.address-card .card .name {
+	font-size: 20px;
+	font-weight: bold;
+}
+.address-card .card span {
+	display: block;
+}
+.address-card .card .default {
+	
+	color: #F25858;
+	font-size: 14px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+
+.check .set-default, .check .edit, .check .del {
+	display: block;
+}
+/*.address-card .card .checked {
+	display: block;
+}*/
+.icon {
+	width: 20px;
+	height: 20px;
+}
+.icon-add {
+	width: 60px;
+	height: 60px;
+	margin: 30px auto 10px;
+}
+.edit {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+	display: none;
+}
+.del {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+	display: none;
+}
+.del:hover,.edit:hover{
+	fill: #F25858;
+}
+.card .add {
+	text-align: center;
+}
+.address-card .more {
+	clear: both;
+	color: #F25858;
+	text-align: center;
+	padding: 30px;
+	cursor: pointer;
+}
+
+.deliver-way .way-card {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.deliver-way .way{
+	width: 250px;
+	height: 100px;
+	border: solid 2px #ddd;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+}
+.card {
+	cursor: pointer;
+}
+.card:hover {
+	border: solid 2px #F25858;
+}
+
+.next-step {
+	width: 100px;
+	margin: 0 auto;
+}
+button.next {
+	text-align: center;
+	background: #F25858;
+	border: 1px solid #F25858;
+	width: 100px;
+	height: 60px;
+}
+
+
+#address-content .check {
+	border: solid 2px #F25858;
+}

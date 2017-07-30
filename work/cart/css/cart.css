@@ -1,0 +1,190 @@
+ul, li, div, img, a {
+  padding: 0;
+  margin: 0; 
+}
+#content {
+  padding: 30px 50px;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cart {
+  
+  
+}
+.cart-title {
+
+  font-size: 18px;
+  line-height:30px;
+  height:30px;
+  background: grey;
+  color: #fff;
+}
+
+.cart-title ul {
+  
+  list-style: none;
+  width: 100%;
+}
+
+.cart ul li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.cart ul li:first-child {
+  width: 40%;
+  
+}
+.cart ul li:nth-child(2),.cart ul li:nth-child(3),.cart ul li:nth-child(4),.cart ul li:nth-child(5) {
+  width: 12%;
+  padding: 0 2px;
+}
+ul.cart-item {
+  border: solid 1px grey;
+  height: auto;
+  padding: 20px 0;
+}
+ul.cart-item li.item-1{
+	text-align: left;
+}
+.cart-item-check {
+	float: left;
+	margin-left: 20px; 
+
+	/*!!*/
+	padding: 39px 0;
+}
+.cart-item-pic {
+	float: left;
+	margin: 0 20px; 
+}
+
+
+.cart-item-check a {
+	/*!!*/
+	display: inline-block;
+ 	width: 16px;
+	height: 16px;
+	border: solid 1px grey;
+	border-radius: 50%; 
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+	 
+}
+svg.icon {
+	
+	width: 16px;
+	height: 16px;
+	/*fill: #fff;*/
+}
+svg.icon-ok {
+	display: none;
+}
+.checked .icon{
+	display: block;
+}
+
+
+.cart-item .item-1 img{
+	width: 100px;
+	height: 100px;
+}
+
+.item-name {
+	font-weight: bold;
+}
+.item-include dl dd {
+	color: #B3A9A9;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+
+
+.item-3 .icon-sub {
+	margin-left: 30px;
+	float: left;
+	cursor: pointer;
+}
+.item-3 .input-box {
+	float: left;
+	width: 20px;
+	text-align: center;
+	margin: 0 5px;
+}
+.item-3 .icon-add {
+	float: left;
+	cursor: pointer;
+}
+svg.icon-del {
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+.cart-foot {
+	margin-top: 20px;
+}
+.foot-left {
+	float: left;
+}
+.icon-sel-all{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: solid 1px grey;
+	border-radius: 50%;
+	margin: 10px 5px 0 21px;
+	/*float: left;*/
+}
+.foot-left a{
+    text-decoration: none;
+}
+.text-sel-all {
+	color: #EA7272;
+}
+
+/*.foot-left span.text-nsel-all {
+	margin-left: 20px;
+	cursor: pointer;
+}*/
+
+/*.test {
+	width: 16px;
+	height: 16px;
+	border: solid 1px grey;
+	border-radius: 50%; 
+}*/
+.foot-right {
+	float: right;
+}
+.total-money {
+	float: left;
+	margin-right: 20px;
+	height: 60px;
+	line-height: 60px;
+}
+div.checkout {
+	float: right;
+}
+button.checkout {
+	background-color: #F24F4F;
+	/*width: 60px;*/
+	padding: 0 40px;
+	height: 60px;
+	line-height: 60px;
+	border: #F24F4F;
+	border-radius: 5%; 
+	cursor: pointer;
+
+}
+.foot-right a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
