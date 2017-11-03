@@ -1,0 +1,51 @@
+/*设置tabbar切换时的样式*/
+.mint-tabbar > .mint-tab-item.is-selected
+{
+	background: none;
+	color:#1aad19
+}
+.mint-cell-allow-right{
+	display: none;
+}
+.mint-cell-text {
+  position: relative;
+  top: -4px;
+  padding-left:10px;
+}
+.header {
+	background-color: #333;
+	height: 50px;
+}
+.header .add{
+	margin-left: 25px;
+	margin-right: 10px;
+}
+.main-content {
+	margin-top: 50px;
+}
+.main-content .tab-text{
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.avatar img{
+	width: 60px;
+	height: 60px;
+}
+.avatar {
+	float: left;
+	margin: 0px 5px;
+}
+.info .name {
+	font-size: 16px;
+	font-weight: bolder;
+}
+.mint-cell{
+	float: left;
+	width: 100%;
+	clear: both;
+}
+.mint-tabbar i {
+	font-size: 25px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>wechat</title>
+	
+	<!-- 引入mint ui -->
+	<link rel="stylesheet" href="https://unpkg.com/mint-ui/lib/style.css">
+	<!-- 引入图标 -->
+	<link rel="stylesheet" href="font/iconfont.css">
+	<!-- 样式文件 -->
+	<link rel="stylesheet" href="style.css">
+
+	
+
+</head>
+<body>
+	<div id="app">
+		<mt-header fixed class='header'>
+			<div class="top-left" slot="left">
+				微信（3）
+			</div>
+			<div class="top-right" slot="right">
+				<i class="iconfont search">&#xe68a;</i>
+				<i class="iconfont add">&#xe616;</i>
+			</div>
+		</mt-header>
+		<div class="main-content">
+
+			
+				<mt-tab-container v-model="selected">
+				  <mt-tab-container-item id="message">
+				    <mt-cell v-for="n in 10">
+				    	<div class="avatar">
+				    		<img src="images/avatar.jpg" alt="" >
+				    	</div>
+				    	<div class="info">
+				    		<p class="name">我是{{n}}号好友</p>
+				    		<p class="content">nnn</p>
+				    	</div>
+				    	<!-- <img  slot="icon" src="images/avatar.jpg"
+				    	width="60" height="60"  style='float:left;margin:10px 10px 10px 0;>
+				    	<div slot='title' style='padding-top:20px;'>
+				    		<div style='display: inline-block;'>用户{{n}}</div>
+				    		<div style='font-size:12px;color:#aaa;padding:7px 0'>您有{{n}}条消息</div> -->
+				    	</div>
+				    </mt-cell>
+				  </mt-tab-container-item>
+				  <mt-tab-container-item id="contact">
+				    <mt-cell v-for="n in 5" title="tab-container 2"></mt-cell>
+				  </mt-tab-container-item>
+				  <mt-tab-container-item id="find">
+				    <mt-cell v-for="n in 7" title="tab-container 3"></mt-cell>
+				  </mt-tab-container-item>
+				  <mt-tab-container-item id="me">
+				    <mt-cell v-for="n in 7" title="tab-container 3"></mt-cell>
+				  </mt-tab-container-item>
+				</mt-tab-container>
+
+				<mt-tabbar v-model="selected" fixed>
+				  <mt-tab-item id="message">
+				    <i class="iconfont">&#xe61d;</i>
+				    <p class="tab-text">微信</p>
+				  </mt-tab-item>
+				  <mt-tab-item id="contact">
+				    <i class="iconfont">&#xe68e;</i>
+				    <p class="tab-text">通讯录</p>
+				  </mt-tab-item>
+				  <mt-tab-item id="find">
+				    <i class="iconfont">&#xe608;</i>
+				    <p class="tab-text">发现</p>
+				  </mt-tab-item>
+				  <mt-tab-item id="me">
+				    <i class="iconfont">&#xe636;</i>
+				    <p class="tab-text">我</p>
+				  </mt-tab-item>
+				</mt-tabbar>
+		</div>
+	</div>
+	
+
+</body>
+<!-- 引入vue -->
+<script src="https://cdn.bootcss.com/vue/2.4.4/vue.min.js"></script>
+<!-- 引入mint ui -->
+<script src="https://unpkg.com/mint-ui/lib/index.js"></script>
+<script>
+    new Vue({
+      el: '#app',
+      data: {
+      	selected: 'message'
+      },
+      methods: {
+        
+      }
+    })
+ </script>
+</html>
