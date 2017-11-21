@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 600px;
+	height: 340px;
+	margin: 100px auto;
+	border: 5px solid black;
+	position: relative;
+	/*!!zhong*/
+	overflow: hidden;
+}
+img{
+	width: 600px;
+	height: 340px;
+}
+.image li{
+	display: inline-block;
+	float: left;
+}
+ul{
+	width: 5000px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.btn{
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	z-index: 1;
+	background: rgba(0,0,0,0.5);
+	width: 20px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	text-align: center;
+	color: rgb(255,255,255);
+	cursor: pointer;
+	/*鼠标悬停到模块上才出现左右调节的按钮*/
+	display: none;
+}
+.container:hover .btn{ display: block; }
+
+.lt{
+	
+	left: 0;
+}
+.gt{
+	
+	right: 0;
+}
+.num_list{
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+
+}
+.num_list li{
+	display: inline-block;
+}
+.num{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #DAD5D5;
+	z-index: 1;
+	margin: 0 8px;
+	cursor: pointer;
+}
+.on{
+	background-color: #E4882A;
+}

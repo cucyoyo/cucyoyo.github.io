@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ccc;
+}
+.bar{
+	background-color: #fff;
+	width: 400px;
+	
+	margin: 100px auto;
+	
+
+}
+.tab{
+	background: #ABA6A6;
+	margin: -1px 0;
+	cursor: pointer;
+
+}
+.tab ul li{
+	display: inline-block;
+	font-size: 20px;
+	line-height: 20px;
+	padding: 10px 15px;
+	border-right: 1px solid #fff;
+
+}
+.tab .active{
+	border-top: 2px solid #14BA64;
+}
+.art{
+	height: 600px;
+	padding: 10px;
+	overflow: scroll;
+
+}
+.art p{
+	text-indent: 2em;
+	line-height: 20px;
+	margin-top: 10px;
+
+}
+.item{
+	display: none;
+}
+.on{
+	display: block;
+}
