@@ -14,6 +14,10 @@
  */
 
 (function webpackUniversalModuleDefinition(root, factory) {
+	console.log('dsaf----')
+	  console.log(typeof exports)
+	  console.log(typeof module)
+	  console.log(define.amd)
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
