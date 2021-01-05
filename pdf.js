@@ -12,7 +12,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+alert('kkk')
+console.log('sss')
 (function webpackUniversalModuleDefinition(root, factory) {
 	alert('kkk')
 	alert(typeof exports)
